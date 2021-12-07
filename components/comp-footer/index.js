@@ -1,7 +1,7 @@
 function compFooter(container) {
   const footerEl = document.createElement("div");
   footerEl.innerHTML = `<div class="footer-container">
-      <span class="footer__title">Pablo</span>
+      <span class="header__logo"><a class="header__logo-link" href="./index.html">Pablo</a></span>
       <div class="footer__redes">
         <div class="footer__redes-fonts">
         <a class="footer__redes-link" href="https://www.instagram.com/pablomartinsdemaltoz/?hl=es-la">instagram</a>

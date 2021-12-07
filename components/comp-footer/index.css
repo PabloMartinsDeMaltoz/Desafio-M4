@@ -46,7 +46,15 @@ body {
   width: 26px;
   height: 26px;
 }
-.footer__redes-link{
+.footer__redes-link {
   text-decoration: none;
   color: white;
-} 
+}
+.header__logo-link {
+  color: #ffffff;
+  text-decoration: none;
+  color: white;
+}
+.header__logo-link:focus {
+  color: darkturquoise;
+}
