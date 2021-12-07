@@ -125,6 +125,7 @@ body {
     width: 100%;
     justify-content: space-around;
     align-items: start;
+    flex-direction: row;
   }
 }
 .servicios__cf-img {

@@ -8,17 +8,17 @@ function compHeader(container) {
         <div class="header__menu-logo"></div>
       </div>
       <div class="header__menu-desktop">
-        <a class="header__menu-desktop--links" href="/Portfolio/porfolio.html">Portfolio</a>
-        <a class="header__menu-desktop--links" href="/Servicios/servicios.html">Servicios</a>
-        <a class="header__menu-desktop--links" href="/contacto/contacto.html">Contacto</a>
+        <a class="header__menu-desktop--links" href="../porfolio.html">Portfolio</a>
+        <a class="header__menu-desktop--links" href="../servicios.html">Servicios</a>
+        <a class="header__menu-desktop--links" href="../contacto.html">Contacto</a>
       </div>
     </header>
     <div class="header__menu-mobile-container">
       <div class="header__menu-mobile">
         <img class="header__menu-mobile-exit" src="/images/x.svg" alt="" />
-        <a class="header__menu-mobile--links" href="/Portfolio/porfolio.html">Portfolio</a>
-        <a class="header__menu-mobile--links" href="/Servicios/servicios.html">Servicios</a>
-        <a class="header__menu-mobile--links" href="/contacto/contacto.html">Contacto</a>
+        <a class="header__menu-mobile--links" href=".//porfolio.html">Portfolio</a>
+        <a class="header__menu-mobile--links" href="../servicios.html">Servicios</a>
+        <a class="header__menu-mobile--links" href="../contacto.html">Contacto</a>
       </div>
     </div>
     <section class="home"></section>`;
