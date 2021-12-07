@@ -1,7 +1,7 @@
 function compHeader(container) {
   const headerEl = document.createElement("div");
   headerEl.innerHTML = `<header class="header">
-      <span class="header__logo"><a class="header__logo-link" href="/index.html">Pablo</a></span>
+      <span class="header__logo"><a class="header__logo-link" href="./index.html">Pablo</a></span>
       <div class="header__menu">
         <div class="header__menu-logo"></div>
         <div class="header__menu-logo"></div>
