@@ -15,8 +15,8 @@ function compHeader(container) {
     </header>
     <div class="header__menu-mobile-container">
       <div class="header__menu-mobile">
-        <img class="header__menu-mobile-exit" src="/images/x.svg" alt="" />
-        <a class="header__menu-mobile--links" href=".//porfolio.html">Portfolio</a>
+        <img class="header__menu-mobile-exit" src="../images/x.svg" alt="" />
+        <a class="header__menu-mobile--links" href="../porfolio.html">Portfolio</a>
         <a class="header__menu-mobile--links" href="../servicios.html">Servicios</a>
         <a class="header__menu-mobile--links" href="../contacto.html">Contacto</a>
       </div>
