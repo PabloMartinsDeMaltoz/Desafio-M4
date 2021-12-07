@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.form__title {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 48px;
+}
+@media (min-width: 769px) {
+  .form__title {
+    padding-top: 116px;
+  }
+}
+.container-form {
+  height: 909px;
+  padding-top: 171px;
+}
+@media (min-width: 769px) {
+  .container-form {
+    background: linear-gradient(
+      107.17deg,
+      #408195 29.35%,
+      rgba(0, 210, 135, 0.8) 78.73%
+    );
+  }
+}
+.form__label-text-area {
+  height: 113px;
+}
+
+.form__button {
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}

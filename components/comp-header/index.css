@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+}
+@media (min-width: 769px) {
+  .header {
+    padding: 52px 80px 0px 86px;
+    position: absolute;
+  }
+}
+.header__logo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+}
+
+@media (min-width: 769px) {
+  .header__logo {
+    font-size: 48px;
+  }
+}
+.header__logo-link {
+  color: #ffffff;
+  text-decoration: none;
+  color: white;
+}
+.header__logo-link:focus {
+  color: darkturquoise;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.header__menu-logo {
+  width: 36px;
+  height: 6px;
+  background-color: white;
+}
+@media (min-width: 769px) {
+  .header__menu-logo {
+    display: none;
+  }
+}
+.header__menu-mobile-container {
+  display: none;
+}
+.header__menu-mobile {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.header__menu-mobile-exit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 37px;
+}
+.header__menu-mobile--links {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+}
+
+.header__menu-desktop {
+  display: none;
+}
+@media (min-width: 769px) {
+  .header__menu-desktop {
+    min-width: 451px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.header__menu-desktop--links {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+

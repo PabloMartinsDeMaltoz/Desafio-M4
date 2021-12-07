@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.section-welcom {
+  width: 100%;
+  height: 616px;
+  color: white;
+  background-image: url("/images/image\ 4\ m\(1\).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  .section-welcom {
+    background-image: url(/images/bg.png);
+  }
+}
+
+.welcome__container-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.welcome__title {
+  font-size: 48px;
+  margin: 0px;
+}
+.welcome__subtitle {
+  font-size: 32px;
+  margin: 0px;
+}
+
+.section-presentacion {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  height: 538px;
+}
+@media (min-width: 769px) {
+  .section-presentacion {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media (min-width: 769px) {
+  .section-presentacion__container-img-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+.section-presentacion__img {
+  display: none;
+}
+@media (min-width: 769px) {
+  .section-presentacion__img {
+    display: block;
+    width: 380px;
+    height: auto;
+  }
+}
+.section-presentacion__title {
+  font-size: 32px;
+  margin: 0px;
+  margin-top: 55px;
+}
+.section-presentacion__parrafo {
+  width: 312px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0px;
+  margin-top: 46px;
+}
+@media (min-width: 769px) {
+  .section-presentacion__parrafo {
+    width: 610px;
+    font-size: 24px;
+  }
+}
+
+.servicios-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicios__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px;
+  margin-top: 70px;
+}
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 262px;
+}
+.container__servicios--grid {
+  margin: 0px 43px 105px 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 105px;
+}
+@media (min-width: 769px) {
+  .container__servicios--grid {
+    margin-top: 106px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: start;
+  }
+}
+.servicios__cf-img {
+  width: 138px;
+  height: auto;
+  margin-top: 48px;
+}
+.servicios__cf-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin: 0px;
+  margin-top: 18px;
+  margin-bottom: 7px;
+}
+.servicios__cf-parrafo {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
