@@ -4,7 +4,7 @@ function card(objeto) {
   const parrafoEl = card.content.querySelector(".servicios__parrafo");
   const imgEl = card.content.querySelector(".servicios__img");
   const linkEl = card.content.querySelector(".servicios__link");
-  const servContainerEl = document.querySelector(".container__servicios--grid");
+  const servContainerEl = document.querySelector(".container__servicios--flex");
   console.log(linkEl);
   console.log(objeto.link);
 

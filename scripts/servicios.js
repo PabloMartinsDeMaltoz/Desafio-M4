@@ -3,7 +3,7 @@ function card(objeto) {
   const titleCardEl = card.content.querySelector(".servicios__secondary-title");
   const parrafoEl = card.content.querySelector(".servicios__parrafo");
   const imgEl = card.content.querySelector(".servicios__img");
-  const servContainerEl = document.querySelector(".container__servicios--grid");
+  const servContainerEl = document.querySelector(".container__servicios--flex");
   titleCardEl.textContent = objeto.titleCardEl;
   parrafoEl.textContent = objeto.parrafoEl;
   imgEl.src = objeto.imgEl;
